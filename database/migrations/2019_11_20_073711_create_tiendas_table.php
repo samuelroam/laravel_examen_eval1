@@ -33,6 +33,6 @@ class CreateTiendasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('tiendas');
+        Schema::drop('tiendas');
     }
 }
